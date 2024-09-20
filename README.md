@@ -17,7 +17,7 @@ This ensures the model output is culturally relevant and free from translation a
 ## Dataset
 Our dataset, **MURI-IT**, is publicly available on HuggingFace 🤗. It contains over 2.2 million instruction-output pairs across 200 languages, including some code examples. Unlike previous research, which relied on translated instructions, our method keeps the output from the native source language, ensuring linguistic authenticity.
 
-(🤗 MURI-IT)[https://huggingface.co/datasets/akoksal/muri-it/]
+[🤗 MURI-IT](https://huggingface.co/datasets/akoksal/muri-it/)
 
 If you would like to use the dataset structured based on language-level subsets, check out this:
 
@@ -43,7 +43,7 @@ For more details on dataset distribution, please refer to [the paper](soon) and 
 ## Model
 We fine-tuned the mT5-XXL model using a subset of the MURI-IT dataset and released the MURI-101 model on HuggingFace, supporting 101 languages. Thanks to [Google's TRC program](https://sites.research.google/trc/about/) for supporting the training of this model.
 
-(🤗 MURI-101)[https://huggingface.co/akoksal/muri-101]
+[🤗 MURI-101](https://huggingface.co/akoksal/muri-101)
 
 ## Results
 We compare **MURI-101** against state-of-the-art models for multilingual instruction following. MURI-101 outperforms most multilingual models, except for Aya, across both NLU and NLG datasets.
