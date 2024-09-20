@@ -4,7 +4,7 @@ We introduce the MURI-IT dataset and MURI-101 model for multilingual instruction
 
 [Paper](PLACEHOLDER)  
 [🤗 The MURI-IT Dataset](https://huggingface.co/datasets/akoksal/muri-it/)  
-[🤗 The MURI-101 model](https://huggingface.co/akoksal/muri-101)  
+[🤗 The MURI-101 Model](https://huggingface.co/akoksal/muri-101)  
 
 
 ![MURI](https://live.staticflickr.com/65535/54004934709_9ccccbf85a_o.png)
