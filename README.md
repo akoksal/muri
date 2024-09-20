@@ -2,7 +2,7 @@
 
 We introduce the MURI-IT dataset and MURI-101 model for multilingual instruction tuning. By applying multilingual reverse instructions (MURI), we generate high-quality instruction-tuning data from raw corpora for **200 languages**. This method ensures cultural and linguistic nuances are preserved, avoiding translation artifacts commonly found in prior approaches like Okapi and Aya, which relied heavily on direct translations.
 
-[Paper](PLACEHOLDER)  
+[Paper](https://arxiv.org/abs/2409.12958)  
 [🤗 The MURI-IT Dataset](https://huggingface.co/datasets/akoksal/muri-it/)  
 [🤗 The MURI-101 Model](https://huggingface.co/akoksal/muri-101)  
 
@@ -41,7 +41,7 @@ If you would like to use the dataset structured based on language-level subsets,
 | **Total**                              |   **200**       |   **2,228,499**  |
 
 
-For more details on dataset distribution, please refer to [the paper](soon) and [the Hugging Face datasets](https://huggingface.co/datasets/akoksal/muri-it/) link.
+For more details on dataset distribution, please refer to [the paper](https://arxiv.org/abs/2409.12958) and [the Hugging Face datasets](https://huggingface.co/datasets/akoksal/muri-it/) link.
 
 ## Model
 We fine-tuned the mT5-XXL model using a subset of the MURI-IT dataset and released the MURI-101 model on HuggingFace, supporting 101 languages. Thanks to [Google's TRC program](https://sites.research.google/trc/about/) for supporting the training of this model.
@@ -87,4 +87,14 @@ We will release scripts to replicate the multilingual reverse instructions proce
 Our dataset quality could be enhanced by removing extraneous elements like headers and footers from documents. MURI's effectiveness in low-resource languages also depends on improving the standardization of input data. Evaluation by native speakers highlighted deficits in dialect and orthographic variation, which we aim to address in future work.
 
 ## Citation
-[PLACEHOLDER]
+```
+@misc{koksal2024muri,
+      title={MURI: High-Quality Instruction Tuning Datasets for Low-Resource Languages via Reverse Instructions}, 
+      author={Abdullatif Köksal and Marion Thaler and Ayyoob Imani and Ahmet Üstün and Anna Korhonen and Hinrich Schütze},
+      year={2024},
+      eprint={2409.12958},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2409.12958}, 
+}
+```
