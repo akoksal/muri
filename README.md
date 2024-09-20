@@ -2,8 +2,8 @@
 
 We introduce the MURI-IT dataset and MURI-101 model for multilingual instruction tuning. By applying multilingual reverse instructions (MURI), we generate high-quality instruction-tuning data from raw corpora for **200 languages**. This method ensures cultural and linguistic nuances are preserved, avoiding translation artifacts commonly found in prior approaches like Okapi and Aya, which relied heavily on direct translations.
 
-[Paper](PLACEHOLDER)
-[🤗 The MURI-IT Dataset](https://huggingface.co/datasets/akoksal/muri-it/)
+[Paper](PLACEHOLDER) 
+[🤗 The MURI-IT Dataset](https://huggingface.co/datasets/akoksal/muri-it/) 
 [🤗 The MURI-101 model](https://huggingface.co/akoksal/muri-101)
 
 
